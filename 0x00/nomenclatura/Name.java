@@ -13,7 +13,7 @@ public class Name {
     }
     
     // Declarações corretas
-    public List<Account> accountList;
+    public List<Account> AccountList;
     
     // Sem Prefixos
     public void deleteUser(User user) {
