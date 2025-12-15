@@ -18,7 +18,15 @@ public class Functions {
         return userService.save(user);
     }
 
+    // Arguments
+    public void saveUser(User user) {
+        // Implementation
+    }
+
     // No side effects
+    public User saveUser(User user) {
+        return userRepository.save(user);
+    }
     
     public void setRole(User user) {
         user.setRole(user);
