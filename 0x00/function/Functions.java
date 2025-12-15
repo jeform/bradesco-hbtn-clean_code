@@ -18,13 +18,13 @@ public class Functions {
         return userService.save(user);
     }
 
-    // Arguments (demonstração com método diferente para evitar conflito)
-    public void deleteUser(User user) {
+    // Arguments
+    public void saveUser(User user) {
         // Implementation
     }
 
     // No side effects
-    public User createUser(User user) {
+    public User saveUser(User user) {
         return userRepository.save(user);
     }
     
